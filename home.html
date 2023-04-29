@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="work.css">
+    <link rel="stylesheet" href="workMenu.css">
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -18,9 +21,9 @@
           <a href="./home.html">Hiram Salas</a>
         </div>
         <ul class="nav-links">
-          <li><a href="">Work</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="burguer">
             <div class="line1"></div>
@@ -57,7 +60,7 @@
 
 
 
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
             <div class="image-container">
                 <!-- <img src="./profile-pics/freestocks-8a95EVm0ovQ-unsplash.jpg" alt=""> -->
@@ -76,37 +79,84 @@
 
 
 
-      <section class="work">
-        <section class="content">
-            <div class="card">
-              <h2>Front End</h2>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-              </ul>
-            </div>
-            
-            <div class="card">
-              <h2>Back End</h2>
-              <ul>
-                <li>PHP</li>
-                <li>Python</li>
-                <li>Node.js</li>
-              </ul>
-            </div>
-    
-    
-            <div class="card">
-              <h2>No SQL</h2>
-              <ul>
-                <li>Cassandra</li>
-                <li>Mongo DB</li>
-                <li>CQL</li>
-              </ul>
-            </div>
-          </section>
+
+      <section class="work" id="work">
+
+        <div class="menu-container">
+          <div class="menu">
+            <p data-target="#Portfolio">Portfolio</p>
+            <p data-target="#Skills">Skills</p>
+            <p data-target="#More">More</p>
+          </div>
+        </div>
+
+      
+        <div class="content">
+          <div data-content id="Portfolio" class="active">
+            <h1>Portfolio</h1>
+          </div>
+          <div data-content id="Skills">
+            <h1>Skills</h1>
+            <section class="skills">
+              <section class="content">
+                  <div class="card">
+                    <h2>Front End</h2>
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                    </ul>
+                  </div>
+                  <div class="card">
+                    <h2>Back End</h2>
+                    <ul>
+                      <li>PHP</li>
+                      <li>Python</li>
+                      <li>Node.js</li>
+                    </ul>
+                  </div>
+                  <div class="card">
+                    <h2>No SQL</h2>
+                    <ul>
+                      <li>Cassandra</li>
+                      <li>Mongo DB</li>
+                      <li>CQL</li>
+                    </ul>
+                  </div>
+                  <div class="card">
+                    <h2>Testing</h2>
+                    <ul>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                </section>
+            </section>
+          </div>
+          <div data-content id="More">
+            <h1>More</h1>
+          </div>
+        </div>
       </section>
+
+
+
+
+
+      <section class="contact" id="contact">
+        <h1>Contact page</h1>     
+      </section>
+
+
+      
+
+
+
+
+
+
+
  
 
 
@@ -114,6 +164,7 @@
 
 
       <script src="./navBar.js"></script>
+      <script src="./workMenu.js"></script>
     
 </body>
 </html>
