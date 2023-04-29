@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 200px;
+  }
+
+  
+  /* .image-container {
+    flex: 1;
+    margin: 0; /* Ajustar margen a 0 
+  } */
+  /* .image-container img {
+    display: block;
+    margin: 0 auto; /* Ajustar margen a 0 y centrar horizontalmente 
+    border-radius: 50%;
+    width: 550px;
+    height: 500px;
+    margin-left: 200px;
+  } */
+  
+
+  .circle{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: gray;
+  }
+
+
+  .image{
+    background-image: url('./profile-pics/freestocks-8a95EVm0ovQ-unsplash.jpg');
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+ 
+
+
+  .content-container {
+    flex: 1;
+    padding: 30px;
+    text-align: left;
+    align-items: flex-start;
+    margin-left: 150px;
+  }
+  
+  .content-container h1{
+    color: #fff;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+  }
+  
+  
+  .content-container p{
+    width: 50%;
+    text-align: justify;
+    color: #fff;
+    letter-spacing: .5px;
+    font-size: 15px;
+  }
+  
+  
+  
+  

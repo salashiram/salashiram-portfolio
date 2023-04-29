@@ -1,0 +1,48 @@
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.card {
+    border: 1px solid #ddd;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;overflow-y: auto; /* Agregar barra de desplazamiento si se agrega más contenido */
+    
+  }
+  
+  .card h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card ul li {
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .card ul li:before {
+    content: '•';
+    margin-right: 5px;
+    color: #0074D9;
+  }
