@@ -43,26 +43,34 @@
 
 
   .content-container {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Opcional: ajusta la altura a tu preferencia */
+    padding: 30px;
+    text-align: center;
+    /* flex: 1;
     padding: 30px;
     text-align: left;
     align-items: flex-start;
-    margin-left: 150px;
+    margin-left: 150px; */
   }
   
   .content-container h1{
     color: #fff;
-    margin-bottom: 20px;
     letter-spacing: 3px;
-    font-size: 25px;
-  }
+    font-size: 30px;
+    margin-bottom: 50px;
+    }
   
   
   .content-container p{
-    width: 50%;
-    text-align: justify;
+    width: 100%;
+    text-align: center;
     color: #fff;
-    letter-spacing: .5px;
+    word-spacing: 5px;
+    line-height: 25px;
     font-size: 15px;
   }
   

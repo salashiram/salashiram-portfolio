@@ -49,9 +49,9 @@ body{
   .text h1{
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 25px;
-    margin-top: 10px;
+    font-size: 30px;
     width: 80%;
+    margin-bottom: 20px;
   }
 
 
