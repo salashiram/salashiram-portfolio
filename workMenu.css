@@ -1,4 +1,7 @@
 
+#work{
+    scroll-margin-top: 200px;
+}
 
 
 .menu-container{
@@ -11,6 +14,7 @@
 .menu {
     display: inline-block;
     margin: 0 auto;
+
 }
 
 .menu p {
@@ -23,7 +27,13 @@
     font-size: 25px;
     letter-spacing: 3px;
     transition: .3s;
+    padding: 10px 20px;
+    border-right: 1px solid #fff;
 }
+
+.menu p:last-child {
+    border-right: none;
+  }
 
 .menu p:hover{
     transition: .3s;

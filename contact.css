@@ -1,11 +1,270 @@
 
 
 
+.social-media{
+}
+
+.social-media h1{
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+
 .contact{
 
+
+    /* min-height: 100vh; */
+    min-height: 80vh;
     display: flex;
-    padding: 50px;
-    color: white;
-    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+
 
 }
+
+
+.contact-info{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    
+
+}
+
+
+
+
+
+
+
+.contact-card{
+
+    background: #3c3c3c;
+    padding: 0 20px;
+    margin: 0 10px;
+    /* width:  calc(33% -20%); */
+    width: 50%;
+    height: 200px;
+    /* flex-basis: auto;
+    flex-grow: 1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .3s linear;
+
+}
+
+
+
+
+.card-icon-ig{
+    font-size: 28px;
+    background: #3c3c3c;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition:  0.3s linear;
+    background-image: url(./icons/icons8-instagram-48.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* .contact-card:hover .card-icon-ig{
+    background: none;
+    color: #ff6348;
+    transform: scale(1.6);
+} */
+
+
+.card-icon-twitter{
+    font-size: 28px;
+    background: #3c3c3c;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition:  0.3s linear;
+    background-image: url(./icons/icons8-twitter-50.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.card-icon-email{
+    font-size: 28px;
+    background: #3c3c3c;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition:  0.3s linear;
+    background-image: url(./icons/icons8-email-50.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-icon-location{
+    font-size: 28px;
+    background: #3c3c3c;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition:  0.3s linear;
+    background-image: url(./icons/icons8-location-30.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.header h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-card a{
+    color: rgb(226, 226, 226);
+    margin-top: 20px;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    font-weight: bold;
+    transition: 0.3s linear;
+    text-decoration: none;
+}
+
+.contact-card:hover a{
+    max-height: 40px;
+    opacity: 1;
+}
+
+
+
+@media screen and (max-width:800px) {
+
+    .contact-info{
+        flex-direction: column;
+
+    }
+    
+    .contact-card{
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+
+}
+
+
+
+
+.email-contact{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact-form{
+    margin: 0 auto;
+    width: 85%;
+    max-width: 600px;
+    background: #3c3c3c;
+    padding: 30px 40px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+}
+
+
+.contact-form h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 200;
+    color: #fff;
+}
+
+.txtb{
+    border:  1px solid gray;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.txtb input,.txtb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+    caret-color: #fff;
+    color: #fff;
+}
+
+
+.btn{
+    display:  inline-block;
+    background: #fff;
+    padding: 14px 0;
+    color: #2c2c2c;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+
+.btn:hover{
+    background: #2c2c2c;
+    color: #fff;
+    transition: .3s;
+}
+
+
+.textp{
+    margin-top: 100px;
+    color: white;
+    padding: 200px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+}
+
+
+

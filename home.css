@@ -76,55 +76,38 @@ body{
     font-family: 'Inter', sans-serif;
   }
 
-  .btn-contact{
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    width: 140px;
-    height: 40px;
-    border-radius: 50px;
-    transition: .3s;
-    background-color: rgb(226, 226, 226);
-    color: black;
-    display: none;
-  }
-
-
-  .btn-contact:hover{
-    background-color: #494d5f;
-    color: rgb(226, 226, 226);
-    transition: .3s;
-  }
 
 
 
-  .btn-instagram{
+
+  .btn-github{
     width: 40px;
     height: 40px;
     border-radius: 40%;
-    background-image: url(./Icons/icons8-instagram-30.png);
+    background-image: url(./icons/icons8-github-30.png);
     background-repeat:no-repeat;
     background-position:center;
     transition: .3s;
   }
 
   
-.btn-instagram:hover{
+.btn-github:hover{
   background-color: #494d5f;
   color: rgb(226, 226, 226);
   transition: .3s;
 }
 
-  .btn-twitter{
+  .btn-yt{
     width: 40px;
     height: 40px;
     border-radius: 40%;
-    background-image: url(./Icons/icons8-twitter-30.png);
+    background-image: url(./icons/icons8-youtube-30.png);
     background-repeat:no-repeat;
     background-position:center;
     transition: .3s;
   }
 
-  .btn-twitter:hover{
+  .btn-yt:hover{
     background-color: #494d5f;
     color: rgb(226, 226, 226);
     transition: .3s;

@@ -25,4 +25,10 @@ window.addEventListener("scroll", function () {
   header.classList.toggle("sticky", this.window.scrollY > 0);
 });
 
+const windowTop = document.getElementById("logo");
+
+windowTop.addEventListener("click", () => {
+  window.scrollTo(0, 0);
+});
+
 navSlide();
